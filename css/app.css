@@ -1,9 +1,28 @@
-h1 {
-  color: #000;
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 .nombre-sitio span {
   color: #037bc0;
+}
+
+/* Box model */
+
+.sobre-nosotros {
+  background-color: red;
+  padding: 25px;
+  width: 200px;
+}
+
+.sobre-empresa {
+  background-color: blue;
+  width: 500px;
+  padding: 100px;
 }
 
 /* Modulos BEM SMACSS */
@@ -11,7 +30,7 @@ h1 {
 /* .navegacion {
     background-color: #e1e1e1;
   }
-  
+
   .navegacion a {
     text-transform: uppercase;
   } */
