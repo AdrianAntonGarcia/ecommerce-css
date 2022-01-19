@@ -2,18 +2,28 @@ h1 {
   color: #000;
 }
 
-h1 span {
+.nombre-sitio span {
   color: #037bc0;
 }
 
-nav a {
+/* Modulos BEM SMACSS */
+/* Modulos */
+/* .navegacion {
+    background-color: #e1e1e1;
+  }
+  
+  .navegacion a {
+    text-transform: uppercase;
+  } */
+
+/* Otro */
+/* .enlace {
   text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  color: #037bc0;
 }
 
-.navegacion a {
-  text-transform: lowercase;
-}
-
-#navegacion a {
-  text-transform: capitalize;
-}
+.color-rojo {
+  color: red;
+} */
