@@ -10,32 +10,54 @@ html {
 /* Globales */
 
 a {
-  text-decoration: none;
   color: #000;
+  text-decoration: none;
 }
+
+.contenedor {
+  max-width: 1200px;
+  /* margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto; */
+  /* margin: 0 auto; */
+  margin-inline: auto;
+}
+
 /* Header y navegacion */
 .nombre-sitio {
   margin-top: 50;
   margin-bottom: 50;
   text-align: center;
 }
+
 .nombre-sitio span {
   color: #037bc0;
+}
+
+.contenedor-navegacion {
+  border-top: 1px solid #e1e1e1;
 }
 
 .nav-principal {
   /* border-color: #e1e1e1;
   border-top-style: solid;
   border-width: 1px; */
-  border-top: 1px solid #e1e1e1;
   /* padding-top: 20px;
   padding-bottom: 20px; */
   padding: 20px 0;
 }
 
+.hero {
+  background-image: url(../img/principal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+
 /* Box model */
 
-.sobre-nosotros {
+/* .sobre-nosotros {
   background-color: red;
   padding: 25px;
   width: 200px;
@@ -45,7 +67,7 @@ a {
   background-color: blue;
   width: 500px;
   padding: 100px;
-}
+} */
 
 /* Display inline y block */
 /* p {
