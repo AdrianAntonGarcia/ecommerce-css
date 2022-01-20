@@ -45,6 +45,8 @@ a {
   border-width: 1px; */
   /* padding-top: 20px;
   padding-bottom: 20px; */
+  display: flex;
+  flex-direction: row;
   padding: 20px 0;
 }
 
@@ -57,7 +59,8 @@ a {
 
 /* Box model */
 
-/* .sobre-nosotros {
+/* 
+.sobre-nosotros {
   background-color: red;
   padding: 25px;
   width: 200px;
