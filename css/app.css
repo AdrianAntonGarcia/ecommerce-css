@@ -48,6 +48,20 @@ img {
   text-align: center;
 }
 
+.btn {
+  display: block;
+  background-color: #8cbc00;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 0.625rem;
+  transition: background-color 0.3s ease-out;
+}
+
+.btn:hover {
+  background-color: #769c02;
+}
+
 .contenedor {
   max-width: 75rem;
   /* margin-top: 0;
@@ -169,6 +183,7 @@ img {
 
 .texto-producto {
   text-align: center;
+  padding: 1.25rem;
   color: #fff;
 }
 
@@ -185,9 +200,27 @@ img {
   font-weight: 900;
 }
 
-.texto-producto a {
+/* .texto-producto a {
+  display: block;
+  background-color: #8cbc00;
   color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 0.625rem;
+  transition: background-color 0.3s ease-out;
 }
+
+.texto-producto a:hover {
+  background-color: #769c02;
+} */
+
+/* .producto img {
+  transition: transform 0.3s ease-out;
+}
+
+.producto img:hover {
+  transform: scale(0.9);
+} */
 /* Box model */
 
 /* 
