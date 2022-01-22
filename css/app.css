@@ -265,8 +265,20 @@ img {
   gap: 1.25rem;
 }
 
+.grid-footer h3 {
+  margin-bottom: 0.3125rem;
+}
 .grid-footer div {
   flex: 1;
+}
+
+.footer-menu a {
+  display: block;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 3.125rem;
 }
 /* .texto-producto a {
   display: block;
