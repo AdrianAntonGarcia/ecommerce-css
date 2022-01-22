@@ -15,6 +15,7 @@ a {
 }
 
 img {
+  display: block;
   max-width: 100%;
 }
 
@@ -63,9 +64,26 @@ img {
 
 /* Categorías*/
 
+.categorias h2 {
+  text-align: center;
+}
+
+.categoria a {
+  display: block;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.categoria a:hover {
+  background-color: #037bc0;
+  color: #fff;
+  border-bottom-right-radius: 20px;
+}
+
 .listado-categorias {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
