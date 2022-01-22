@@ -252,6 +252,22 @@ img {
   font-weight: 900;
 }
 
+/* Footer */
+
+.site-footer {
+  border-top: 1px solid #e1e1e1;
+  margin-top: 3.125rem;
+  padding-top: 3.125rem;
+}
+
+.grid-footer {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.grid-footer div {
+  flex: 1;
+}
 /* .texto-producto a {
   display: block;
   background-color: #8cbc00;
