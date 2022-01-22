@@ -129,6 +129,28 @@ img {
   background-size: 100%, 75rem;
 }
 
+/* Con grid */
+.sobre-nosotros-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 8rem;
+}
+
+.texto-nosotros {
+  grid-column: 2 / 3;
+}
+/* Con flexbox */
+.sobre-nosotros-flex {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.texto-nosotros-flex {
+  flex-basis: 50%;
+  padding-left: 6.25rem;
+  color: #fff;
+}
+
 /* Box model */
 
 /* 
