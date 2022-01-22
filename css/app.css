@@ -42,6 +42,12 @@ img {
   max-width: 100%;
 }
 
+/* Utilidades */
+
+.text-center {
+  text-align: center;
+}
+
 .contenedor {
   max-width: 75rem;
   /* margin-top: 0;
@@ -151,6 +157,37 @@ img {
   color: #fff;
 }
 
+/* Bloque listado de productos */
+
+.contenido-principal {
+  padding-top: 3.125rem;
+}
+
+.producto {
+  background-color: #037bc0;
+}
+
+.texto-producto {
+  text-align: center;
+  color: #fff;
+}
+
+.texto-producto h3 {
+  margin: 0;
+}
+
+.texto-producto p {
+  margin: 0 0 0.3125rem 0;
+}
+
+.texto-producto .precio {
+  font-size: 1.75rem;
+  font-weight: 900;
+}
+
+.texto-producto a {
+  color: #fff;
+}
 /* Box model */
 
 /* 
