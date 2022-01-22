@@ -113,6 +113,22 @@ img {
   gap: 1.25rem;
 }
 
+/* Bloque nosotros */
+
+.sobre-nosotros {
+  background-image: linear-gradient(
+      to right,
+      transparent 50%,
+      #037bc0 50%,
+      #037bc0 100%
+    ),
+    url(../img/nosotros.jpg);
+  background-position: left center;
+  padding: 6.25rem 0;
+  background-repeat: no-repeat;
+  background-size: 100%, 75rem;
+}
+
 /* Box model */
 
 /* 
