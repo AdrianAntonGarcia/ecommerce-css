@@ -336,6 +336,23 @@ img {
   margin: auto;
 }
 
+/* galería */
+
+.galeria {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+
+.galeria img {
+  object-fit: cover;
+  height: 25rem;
+  width: 25rem;
+}
+
 /* .texto-producto a {
   display: block;
   background-color: #8cbc00;
