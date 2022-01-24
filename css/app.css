@@ -280,6 +280,22 @@ img {
   text-align: center;
   margin-top: 3.125rem;
 }
+
+/* Nosotros*/
+
+.contenido-nosotros {
+  display: grid;
+  /* grid-template-columns: 1fr 2fr; */
+  grid-template-columns: repeat(auto-fit, minmax(15.625rem, 1fr));
+  column-gap: 2.5rem;
+}
+
+.informacion-nosotros {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /* .texto-producto a {
   display: block;
   background-color: #8cbc00;
