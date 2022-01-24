@@ -331,6 +331,11 @@ img {
   color: #037bc0;
 }
 
+.contenido-entrada-blog {
+  max-width: 37.5rem;
+  margin: auto;
+}
+
 /* .texto-producto a {
   display: block;
   background-color: #8cbc00;
