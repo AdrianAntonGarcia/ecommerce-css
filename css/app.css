@@ -353,6 +353,39 @@ img {
   width: 25rem;
 }
 
+/* Formulario */
+
+.formulario {
+  max-width: 37.5rem;
+  margin: 0 auto;
+}
+
+.formulario fieldset {
+  border: 1px solid black;
+  margin-bottom: 1.25rem;
+}
+
+.formulario legend {
+  background-color: #005485;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 0.625rem;
+  margin-bottom: 2.5rem;
+}
+
+.campo {
+  display: flex;
+  margin-bottom: 1.25rem;
+}
+
+.campo label {
+  /* le dice lo que ocupa el campo */
+  flex-basis: 6.25rem;
+}
+
 /* .texto-producto a {
   display: block;
   background-color: #8cbc00;
