@@ -53,17 +53,19 @@ img {
 }
 
 .btn {
-  display: block;
   background-color: #8cbc00;
+  border: none;
   color: #fff;
-  text-transform: uppercase;
+  display: block;
   font-weight: 900;
   padding: 0.625rem;
+  text-transform: uppercase;
   transition: background-color 0.3s ease-out;
 }
 
 .btn:hover {
   background-color: #769c02;
+  cursor: pointer;
 }
 
 .contenedor {
@@ -384,6 +386,25 @@ img {
 .campo label {
   /* le dice lo que ocupa el campo */
   flex-basis: 6.25rem;
+}
+
+/* Selector de atributo entre corchetes */
+/* .campo input[type='text'],
+.campo input[type='tel'],
+.campo input[type='email'],
+textarea {
+  flex: 1;
+  border: 1px solid #e1e1e1;
+  padding: 0.625rem;
+} */
+
+.campo input:not([type='radio']),
+textarea,
+select {
+  border: 1px solid #e1e1e1;
+  flex: 1;
+  margin: 0 0.625rem;
+  padding: 0.625rem;
 }
 
 /* .texto-producto a {
