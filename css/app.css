@@ -143,8 +143,22 @@ img {
 /* Categorías*/
 
 .categorias {
-  padding-top: 3.125rem;
+  padding-top: 3.125rem 0;
 }
+.categoria {
+  margin-bottom: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .categoria {
+    margin-bottom: 0;
+  }
+}
+
+.categoria img {
+  width: 100%;
+}
+
 .categorias h2 {
   text-align: center;
 }
@@ -162,10 +176,12 @@ img {
   border-bottom-right-radius: 1.25rem;
 }
 
-.listado-categorias {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.25rem;
+@media (min-width: 768px) {
+  .listado-categorias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+  }
 }
 
 /* Bloque nosotros */
