@@ -31,10 +31,20 @@ h1 {
   }
 }
 h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
+}
+@media (min-width: 768px) {
+  h2 {
+    font-size: 2.5rem;
+  }
 }
 h3 {
-  font-size: 1.875rem;
+  font-size: 1.5rem;
+}
+@media (min-width: 768pc) {
+  h3 {
+    font-size: 1.875rem;
+  }
 }
 
 a {
