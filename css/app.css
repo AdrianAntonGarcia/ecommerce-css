@@ -349,17 +349,42 @@ img {
 
 .site-footer {
   border-top: 1px solid #e1e1e1;
-  margin-top: 3.125rem;
-  padding-top: 3.125rem;
+  margin-top: 1.25rem;
+  padding-top: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .site-footer {
+    border-top: 1px solid #e1e1e1;
+    margin-top: 3.125rem;
+    padding-top: 3.125rem;
+  }
 }
 
 .grid-footer {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   gap: 1.25rem;
 }
 
+@media (min-width: 768px) {
+  .grid-footer {
+    flex-direction: row;
+    align-items: unset;
+    text-align: unset;
+  }
+}
+
 .grid-footer h3 {
-  margin-bottom: 0.3125rem;
+  margin: 0;
+}
+
+@media (min-width: 768pc) {
+  .grid-footer h3 {
+    margin-bottom: 0.3125rem;
+  }
 }
 .grid-footer div {
   flex: 1;
