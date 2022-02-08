@@ -256,64 +256,13 @@ img {
 
 /* Bloque listado de productos */
 
-.contenido-principal {
-  padding-top: 3.125rem;
-}
-
-.listado-productos {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  /* column-gap: 1.25rem;
-  row-gap: 1.25rem; */
-  gap: 1.25rem;
-}
-
-.producto:nth-child(1) {
-  grid-column: 1 / 7;
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-}
-
-.producto:nth-child(1) img {
-  object-fit: cover;
-  height: 33.875rem;
-  width: 100%;
-}
-
-.producto:nth-child(2) {
-  grid-column-start: 1;
-  grid-column-end: 4;
-}
-
-.producto:nth-child(3) {
-  grid-column-start: 4;
-  grid-column-end: 7;
-}
-
-.producto:nth-child(2) img,
-.producto:nth-child(3) img {
-  object-fit: cover;
-  height: 18.75rem;
-  width: 100%;
-}
-
-.producto:nth-child(4) {
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
-
-.producto:nth-child(5) {
-  grid-column-start: 3;
-  grid-column-end: 5;
-}
-
-.producto:nth-child(6) {
-  grid-column-start: 5;
-  grid-column-end: 7;
-}
-
 .producto {
   background-color: #037bc0;
+  margin-bottom: 1.25rem;
+}
+
+.producto:last-of-type {
+  margin-bottom: 0;
 }
 
 .texto-producto {
@@ -333,6 +282,67 @@ img {
 .texto-producto .precio {
   font-size: 1.75rem;
   font-weight: 900;
+}
+
+@media (min-width: 768px) {
+  .contenido-principal {
+    padding-top: 3.125rem;
+  }
+
+  .listado-productos {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    /* column-gap: 1.25rem;
+    row-gap: 1.25rem; */
+    gap: 1.25rem;
+  }
+
+  .producto:nth-child(1) {
+    grid-column: 1 / 7;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+
+  .producto:nth-child(1) img {
+    object-fit: cover;
+    height: 33.875rem;
+    width: 100%;
+  }
+
+  .producto:nth-child(2) {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+  .producto:nth-child(3) {
+    grid-column-start: 4;
+    grid-column-end: 7;
+  }
+
+  .producto:nth-child(2) img,
+  .producto:nth-child(3) img {
+    object-fit: cover;
+    height: 18.75rem;
+    width: 100%;
+  }
+
+  .producto:nth-child(4) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .producto:nth-child(5) {
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+
+  .producto:nth-child(6) {
+    grid-column-start: 5;
+    grid-column-end: 7;
+  }
+  .producto {
+    margin-bottom: unset;
+  }
 }
 
 /* Footer */
