@@ -114,8 +114,16 @@ img {
   /* padding-top: 20px;
   padding-bottom: 20px; */
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-between;
   padding: 1.25rem 0;
+}
+
+@media (min-width: 768px) {
+  .nav-principal {
+    flex-direction: row;
+  }
 }
 
 .hero {
@@ -123,7 +131,13 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 34.375rem;
+  height: 15.625rem;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    height: 34.375rem;
+  }
 }
 
 /* Categorías*/
